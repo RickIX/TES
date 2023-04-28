@@ -1,0 +1,14 @@
+### listar produtos                                   
+GET http://localhost:3000                   
+
+### Requisição passando parametros na URL
+GET http://localhost:3000/telefone
+
+### Requisição passando informação pelo corpo da requisição / Cadastrar produto
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "nome" : "telefone",
+    "preco" : 9
+}
